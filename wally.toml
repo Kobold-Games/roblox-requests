@@ -1,0 +1,10 @@
+[package]
+name = "kobold-games/http"
+version = "0.1.3"
+registry = "https://github.com/Kobold-Games/wally-index"
+realm = "server"
+
+exclude = ["**"]
+include = ["http", "http/**", "LICENSE", "default.project.json", "wally.toml"]
+
+[dependencies]
